@@ -1,0 +1,28 @@
+1. python 
+apt-get install python (version 2.7 by default)
+
+2. pip install shadowsocks
+
+3. ssserver command (details to check ssserver -h)
+
+4. config file for ssserver 
+
+```
+{ 
+   "server":"my_server_ip", 
+   "server_port":25, 
+   "local_address": "127.0.0.1", 
+   "local_port":1080, 
+   "password":"mypassword",
+   "timeout":300, 
+   "method":"aes-256-cfb", 
+   "fast_open": false
+}
+```
+
+Reference:
+
+https://www.textarea.com/ExpectoPatronum/shiyong-shadowsocks-kexue-shangwang-265/
+
+https://blog.csdn.net/u014179251/article/details/85997776
+https://blog.csdn.net/qq_41663800/article/details/103408929
