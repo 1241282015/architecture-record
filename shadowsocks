@@ -4,6 +4,7 @@ apt-get install python (version 2.7 by default)
 2. pip install shadowsocks
 
 3. ssserver command (details to check ssserver -h)
+(/usr/bin/python3 /usr/local/bin/ssserver -c /usr/local/shadow//shadowsock.json -d start)
 
 4. config file for ssserver 
 
